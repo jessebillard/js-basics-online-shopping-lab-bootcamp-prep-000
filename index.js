@@ -73,7 +73,6 @@ function removeFromCart(item) {
      }
       
      return cart
-    
 }
 // phunkshion5: DOA
 function placeOrder(cardNumber) {
