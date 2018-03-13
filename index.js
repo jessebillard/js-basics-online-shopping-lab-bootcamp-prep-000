@@ -74,6 +74,7 @@ function removeFromCart(item) {
       
      return cart
 }
+console.log(removeFromCart('bananas'))
 // phunkshion5: DOA
 function placeOrder(cardNumber) {
   if (!cardNumber) {
