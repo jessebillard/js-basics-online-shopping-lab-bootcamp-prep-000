@@ -45,7 +45,7 @@ function viewCart() {
       
   if (cart.length >= 3) {
     var lastItem = list.splice(-1);
-    list.pop();
+    list.splice(-1)
     console.log(intro + list.join(', ') + 'and ' + lastItem + '.' ) 
     }
    
