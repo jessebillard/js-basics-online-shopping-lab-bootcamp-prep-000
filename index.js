@@ -64,8 +64,9 @@ function total() {
 // phunkshion4: let's settle this score
 function removeFromCart(item) {
   for (let i = 0; i < cart.length; i++) {
+    var itemNames = Object.keys(cart)
      if (cart[i].hasOwnProperty(item)) {
-      delete cart[item]
+      delete cart.item
      } 
   }
     if (!cart.hasOwnProperty(item)) {
