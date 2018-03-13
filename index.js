@@ -44,7 +44,7 @@ function viewCart() {
     } 
       
   if (cart.length >= 3) {
-    var lastItem = list.splice(-1);
+    var lastItem = list.length(splice(-1);
     list.pop();
     console.log(intro + list.join(', ') + 'and ' + lastItem + '.' ) 
     }
