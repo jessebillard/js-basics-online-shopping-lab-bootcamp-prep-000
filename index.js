@@ -48,10 +48,6 @@ function viewCart() {
     list.pop();
     console.log(intro + list.join(', ') + 'and ' + lastItem + '.' ) 
     }
-  
-  
-  
-  
    
 }
 // phunkshion3: come at me...D.O.N.EEEEEEEE
