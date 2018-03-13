@@ -33,9 +33,8 @@ function viewCart() {
     var cartKey = Object.keys(cart[i]);
     var cartPrice = Object.values(cart[i]);
     list.push(`${cartKey} at $${cartPrice}`)
-  }   
-  
-  if (cart.length === 1) {
+    
+    if (cart.length === 1) {
     console.log(intro + list + '.')
   }
   
@@ -49,6 +48,10 @@ function viewCart() {
     console.log(intro + list.join(', ') + 'and ' + lastItem + '.' ) 
     }
    
+    
+  }   
+  
+  
 }
 // phunkshion3: come at me...D.O.N.EEEEEEEE
 
