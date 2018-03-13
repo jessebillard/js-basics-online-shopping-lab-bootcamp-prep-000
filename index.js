@@ -65,7 +65,7 @@ function total() {
 function removeFromCart(item) {
   for (let i = 0; i < cart.length; i++) {
     var itemNames = Object.keys(cart[i])
-     if (item === itemNames) {
+     if (item === itemNames[i]) {
       delete cart.item
      } 
   }
