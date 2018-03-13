@@ -36,7 +36,7 @@ function viewCart() {
   }   
   
   if (cart.length === 1) {
-    console.log(`${intro} ${list}.`)
+    console.log(intro + list + '.')
   }
   
   if (cart.length === 2) {
