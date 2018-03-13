@@ -50,8 +50,8 @@ function viewCart() {
     }
    
 }
-// phunkshion3: come at me...D.O.N.EEEEEEEE
 
+// phunkshion3: come at me...D.O.N.EEEEEEEE
 function total() {
   var sum = 0
   for (let i = 0; i < cart.length; i++) {
